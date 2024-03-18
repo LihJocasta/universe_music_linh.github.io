@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+body{
+    background-color: bisque;
+}
+
+#wrapper{
+    width: 100%;
+    height: 100vh;
+}
+
+#header{
+    background-color: rgb(130, 117, 117);
+    width: 100%;
+    padding:0px 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+#header img{
+    width: 80px;
+    padding: 10px;
+}
+
+.logo{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin: 0px 2px;
+}
+
+#menu{
+    list-style: none;
+    display: flex;
+}
+
+#menu .item{
+    margin: 0px 25px;
+}
+
+#menu .item a{
+    color: black;
+    text-decoration: none;
+}
+
+#actions{
+    display: flex;
+}
+
+#action .item {
+    width: 10px;
+    height: 10px;
+}
+
+
+#banner{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 463px;
+    display: flex;
+    padding: 0px 133px;
+    position:relative ;
+    text-decoration: none;
+    animation: showslide 100s infinite;
+}
+
+@keyframes showslide{
+    0%{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(./Image_Billie-Eilish.png);
+        height: 463px;
+    }
+    5%{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(./Eminem-Rock-and-Roll-Hall-of-Fame.webp);
+        height: 463px;
+    }
+    10%{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("./Blackpink_PUBG_210321.jpg");
+        height: 463px;
+    }
+    15%{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(./Image_Billie-Eilish.png);
+        height: 463px;
+    }
+    20%{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(./Eminem-Rock-and-Roll-Hall-of-Fame.webp);
+        height: 463px;
+    }
+    25%{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("./Blackpink_PUBG_210321.jpg");
+        height: 463px;
+    }
+    30%{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(./Image_Billie-Eilish.png);
+        height: 463px;
+    }
+    35%{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(./Eminem-Rock-and-Roll-Hall-of-Fame.webp);
+        height: 463px;
+    }
+    40%{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("./Blackpink_PUBG_210321.jpg");
+        height: 463px;
+    }
+    45%{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(./Image_Billie-Eilish.png);
+        height: 463px;
+    }
+    50%{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(./Eminem-Rock-and-Roll-Hall-of-Fame.webp);
+        height: 463px;
+    }
+    60%{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("./Blackpink_PUBG_210321.jpg");
+        height: 463px;
+    }
+    65%{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(./Image_Billie-Eilish.png);
+        height: 463px;
+    }
+    70%{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(./Eminem-Rock-and-Roll-Hall-of-Fame.webp);
+        height: 463px;
+    }
+    75%{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("./Blackpink_PUBG_210321.jpg");
+        height: 463px;
+    }
+    80%{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(./Image_Billie-Eilish.png);
+        height: 463px;
+    }
+    85%{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(./Eminem-Rock-and-Roll-Hall-of-Fame.webp);
+        height: 463px;
+    }
+    90%{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("./Blackpink_PUBG_210321.jpg");
+        height: 463px;
+    }
+    95%{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(./Eminem-Rock-and-Roll-Hall-of-Fame.webp);
+        height: 463px;
+    }
+    100%{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("./Blackpink_PUBG_210321.jpg");
+        height: 463px;
+    }
+}
+
+#banner .box-left h1{
+    font-size: 48px;
+    margin-top: 17% ;
+    color: white;
+}
+
+#banner .box-left p{
+    color: white;
+    font-size: 20px;
+}
+
+#banner .box-left button{
+    width: 191px;
+    height: 40px;
+    margin-top: 2%;
+    border-radius: 15px;
+    background-color: rgb(130, 117, 117);
+    color: white;
+    transition: 1s;
+    text-decoration: none;
+}
+
+#banner .box-left button:hover{
+    background-color:bisque ;
+
+}
+
+
+#img-singer{
+    padding-top: 116px;
+    padding-bottom: 78px;
+    padding-left: 134px;
+    padding-right: 134px;
+}
+
+#img-singer h2{
+    text-align: center;
+    margin-bottom: 76px;
+    font-size: 32px;
+    color: rgb(130, 117, 117);
+}
+
+#list-singers {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+#list-singers .item{
+    width: 290px;
+    height: 374px;
+    background-color: rgb(130, 117, 117);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+#list-singers .item img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 17px;
+}
+
+#list-singers .item .name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+#list-singers .item .introduction{
+    text-align: center;
+    justify-content: center;
+    font: bold;
+    margin-top: 5%;
+}
+
+#aboutme{
+    width: 100%;
+    display: flex;
+    height: 500px;
+}
+
+#aboutme .box-left, #aboutme .box-right{
+    width: 50%;
+}
+
+#aboutme .box-left{
+    background-color: rgb(130, 117, 117);
+    text-align: center;
+    min-height: 500px;
+}
+
+#aboutme .box-left h1{
+    padding-top: 38px;
+}
+
+#aboutme .box-left h1 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+#aboutme .box-left p{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+
+
+
+#aboutme .box-right{
+    background-image: url("./bac698bc04926b61b2c542412d97e9a6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#footer{
+    width: 100%;
+    background-color: rgb(39, 36, 36);
+    height: 322px;
+    margin-top: 338px;
+    padding: 0px 63px;
+    padding-top: 57px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer img{
+    width: 90px;
+    padding: 10px;
+}
+
+#footer .box{
+    width: 250px;
+    margin-right:60px ;
+    color: white;
+}
+
+#footer .box .quick-menu{
+    margin-top: 40px;
+}
+
+#footer .box .quick-menu .item{
+    margin-bottom: 12px;
+}
+
+#footer .box .quick-menu .item a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer .box form input{
+    width: 294px;
+    height: 42px;
+    background: transparent;
+    padding-left:20px ;
+    color: white;
+}
+
+#footer .box form button{
+    background-color: rgb(130, 117, 117);
+    box-shadow: 5px 5px 4px rgb(0, 0, 0);
+    width: 163px;
+    height: 38px;
+    margin-top: 29px;
+    color: white;
+}
